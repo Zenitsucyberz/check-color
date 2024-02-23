@@ -62,8 +62,8 @@
                             <div class="item">
                                 <div class="card-style-seventeen d-lg-flex tran3s w-100">
                                     <div
-                                        class="icon tran3s rounded-circle d-flex justify-content-center align-items-center">
-                                        <img src="{{ asset('assets/images/icon/icon_95.svg') }}" alt="">
+                                        class=" justify-content-center align-items-center">
+                                        <img src="{{ asset('assets/images/icon/icon_101.png') }}" alt="" style="max-width: 91px">
                                     </div>
                                     <div class="text">
                                         <h4 class="fw-bold mb-25 md-mb-20">Software Development</h4>
@@ -77,8 +77,8 @@
                             <div class="item">
                                 <div class="card-style-seventeen d-lg-flex tran3s w-100">
                                     <div
-                                        class="icon tran3s rounded-circle d-flex justify-content-center align-items-center">
-                                        <img src="{{ asset('assets/images/icon/icon_96.svg') }}" alt="">
+                                        class=" justify-content-center align-items-center">
+                                        <img src="{{ asset('assets/images/icon/icon_102.png') }}" alt="" style="max-width: 71px">
                                     </div>
                                     <div class="text">
                                         <h4 class="fw-bold mb-25 md-mb-20">Digital Marketing</h4>
@@ -92,8 +92,8 @@
                             <div class="item">
                                 <div class="card-style-seventeen d-lg-flex tran3s w-100">
                                     <div
-                                        class="icon tran3s rounded-circle d-flex justify-content-center align-items-center">
-                                        <img src="{{ asset('assets/images/icon/icon_95.svg') }}" alt="">
+                                        class=" justify-content-center align-items-center">
+                                        <img src="{{ asset('assets/images/icon/icon-103.png') }}" alt="" style="max-width: 50px">
                                     </div>
                                     <div class="text">
                                         <h4 class="fw-bold mb-25 md-mb-20">E_COMMERCE MANAGEMENT</h4>
@@ -113,7 +113,7 @@
                                 <div class="card-style-seventeen d-lg-flex tran3s w-100">
                                     <div
                                         class="icon tran3s rounded-circle d-flex justify-content-center align-items-center">
-                                        <img src="{{ asset('assets/images/icon/icon_96.svg') }}" alt="">
+                                        <img src="{{ asset('assets/images/icon/icon_109.png') }}" alt="" style="max-width: 161px">
                                     </div>
                                     <div class="text">
                                         <h4 class="fw-bold mb-25 md-mb-20">Business Consulting</h4>
@@ -163,7 +163,7 @@
                                             class="lazy-img"></div>
                                     <blockquote>“Effortless, Expert, and Innovative IT Solutions. A Top Pick for Smooth and Knowledgeable Services!”
                                     </blockquote>
-                                    <h6>- Musa Jamy. <span>CEO check web digitals</span></h6>
+                                    
                                 </div>
                             </div>
                             <div class="col-lg-5 d-flex align-items-end justify-content-center order-lg-first">

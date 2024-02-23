@@ -7,8 +7,22 @@
 
 
 
-    @include('web.layouts.partials.meta-data')
-    <title>check web digitals</title>
+    @hasSection('meta-content')
+        @yield('meta-content')
+    @else
+        <title>{{ env('APP_NAME') }}</title>
+
+        <meta name="title" content="Software Development & Digital Marketing Solutions in Ernakulam">
+        <meta name="description"
+            content=" Discover top-notch software development, ERP development,Business Consultation and digital marketing services in Ernakulam. Boost your business with our expert solutions">
+        <meta name="keywords"
+            content="Software Development Ernakulam,ERP Development Services,Digital Marketing Solutions,Business Boosting Services,Expert Solutions,Top-notch Software Services,ERP Solutions Ernakulam,Digital Marketing Ernakulam,Business Excellence,Custom Software Solutions,">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="revisit-after" content="3 days">
+        <meta name="author" content="Check Web Digitals">
+    @endif
     <!-- Favicon -->
     <link rel="icon" type="image/png"  href="{{ asset('assets/images/logo/logo_071.png') }}">
     <!-- Bootstrap CSS -->

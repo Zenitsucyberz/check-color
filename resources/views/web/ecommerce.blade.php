@@ -1,42 +1,15 @@
 @extends('web.layouts.app')
 @section('content')
-    <!--
-                          =============================================
-                           Inner Banner
-                          ==============================================
-                          -->
-    <div class="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 md-pb-70 position-relative"
-        style="background-image: url({{ asset('assets/images/media/ecom.jpg') }});">
-        <div class="container position-relative">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="hero-heading d-inline-block position-relative me-xl-4" style="color: white">E-Commerce Seller
-                        Account Management <img src="images/shape/shape_27.svg" alt=""></h1>
-                </div>
-                <div class="col-xl-4 col-lg-5 ms-auto">
-                    <p class="text-white text-lg mb-70 lg-mb-40">Offering solutions & services to address a spectrum of
-                        financial and Digital issues</p>
-                    <ul class="style-none d-inline-flex pager">
-                        <li><a href="{{ route('web.index') }}">Home</a></li>
-                        <li>/</li>
-                        <li><a href="{{ route('web.services') }}">Services</a></li>
-                        <li>/</li>
-                        <li>E-Commerce Management</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.inner-banner-one -->
+    @include('web.partials.service-header', [
+        'bgImage' => asset('assets/images/media/ecom.jpg'),
+        'title' => 'E-Commerce Seller Account Management',
+        'titleDesc' => 'Offering solutions & services to address a spectrum of
+                                financial and Digital issues',
+        'breadCrumb' => 'E-Commerce Management',
+    ])
 
 
 
-
-    <!--
-                          =====================================================
-                           Service Details
-                          =====================================================
-                          -->
     <div class="service-details mt-150 lg-mt-80 mb-100 lg-mb-80">
         <div class="container">
             <div class="row">
@@ -114,20 +87,20 @@
 
 
                         <!--
-                                              =============================================
-                                               BLock Feature One
-                                              ==============================================
-                                              -->
+                                                                          =============================================
+                                                                           BLock Feature One
+                                                                          ==============================================
+                                                                          -->
                         <div
-                            class="block-feature-one position-relative check web digitals mt-150 lg-mt-80 pt-120 lg-pt-60 pb-130 lg-pb-60" >
-                            <div class="container" >
-                                <div class="position-relative" >
+                            class="block-feature-one position-relative check web digitals mt-150 lg-mt-80 pt-120 lg-pt-60 pb-130 lg-pb-60">
+                            <div class="container">
+                                <div class="position-relative">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="title-one text-center text-md-start mb-30 sm-mb-10">
-												
+
                                                 <h2>Provide quality Services.</h2>
-												
+
                                             </div>
                                             <!-- /.title-one -->
                                         </div>
@@ -143,7 +116,7 @@
                                                     help businesses effectively manage their presence and operations on the
                                                     Amazon marketplace, optimizing product listings, inventory, pricing,
                                                     order fulfillment, and customer engagement.</p>
-                                                <a href="{{route('web.amazon')}}"
+                                                <a href="{{ route('web.amazon') }}"
                                                     class="arrow-btn tran3s mt-auto stretched-link"><img
                                                         src="{{ asset('assets/images/lazy.svg') }}"
                                                         data-src="{{ asset('assets/images/icon/icon_09.svg') }}"
@@ -161,7 +134,7 @@
                                                     Account Management service. We optimize listings, manage inventory,
                                                     refine pricing, streamline fulfillment, and provide dedicated support
                                                     for your success.</p>
-                                                <a href="{{route('web.flipkart')}}"
+                                                <a href="{{ route('web.flipkart') }}"
                                                     class="arrow-btn tran3s mt-auto stretched-link"><img
                                                         src="{{ asset('assets/images/lazy.svg') }}"
                                                         data-src="{{ asset('assets/images/icon/icon_09.svg') }}"
@@ -172,15 +145,15 @@
                                         <div class="col-lg-4 col-md-6 d-flex wow fadeInUp" data-wow-delay="0.2s">
                                             <div class="card-style-two vstack tran3s w-100 mt-30">
                                                 <img src="{{ asset('assets/images/lazy.svg') }}"
-                                                    data-src="{{ asset('assets/images/icon/icon_100.png') }}" alt=""
-                                                    class="lazy-img icon me-auto">
+                                                    data-src="{{ asset('assets/images/icon/icon_100.png') }}"
+                                                    alt="" class="lazy-img icon me-auto">
                                                 <h4 class="fw-bold mt-30 mb-25">Meesho Seller Account Management</h4>
                                                 <p class="mb-20">Unlock your Meesho success with our dedicated Seller
                                                     Account Management service. We optimize listings, manage inventory,
                                                     refine pricing, streamline fulfillment, and provide tailored support for
                                                     your growth.
                                                 </p>
-                                                <a href="{{route('web.meesho')}}"
+                                                <a href="{{ route('web.meesho') }}"
                                                     class="arrow-btn tran3s mt-auto stretched-link"><img
                                                         src="{{ asset('assets/images/lazy.svg') }}"
                                                         data-src="{{ asset('assets/images/icon/icon_09.svg') }}"

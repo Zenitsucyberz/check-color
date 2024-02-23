@@ -58,7 +58,7 @@
                                             class="lazy-img">
                                     </div>
                                     <h5 class="title">Contact Info</h5>
-                                    <p>Open a chat or give us call at <br><a href="#"
+                                    <p>Open a chat or give us call at <br><a href="tel:+918075561175"
                                             class="call text-lg fw-500">8075561175</a></p>
                                 </div> <!-- /.address-block-one -->
                             </div>
@@ -71,7 +71,7 @@
                                             class="lazy-img">
                                     </div>
                                     <h5 class="title">Live Support</h5>
-                                    <p>live chat service <br><a href="#"
+                                    <p>live chat service <br><a href="mailto:checkdigitals@gmail.com"
                                             class="webaddress">checkdigitals@gmail.com</a></p>
                                 </div> <!-- /.address-block-one -->
                             </div>

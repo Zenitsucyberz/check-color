@@ -25,11 +25,9 @@ Route::name('web.')->group(function () {
         return view('web.about');
     })->name('about');
 
-    Route::get('services', function () {
-        return view('web.service');
-    })->name('services');
 
-    
+
+
 
     Route::get('contact-us', function () {
         return view('web.contact');
@@ -44,7 +42,7 @@ Route::name('web.')->group(function () {
             'company' => 'nullable',
             'phone' => 'required',
             'description' => 'required',
-        ],[
+        ], [
             'description.required' => 'Message is required'
         ]);
 
@@ -57,41 +55,51 @@ Route::name('web.')->group(function () {
         // dd($request->toArray());
 
 
-        return back()->with('mail_send','Thank you for contacting us');
-
+        return back()->with('mail_send', 'Thank you for contacting us');
     })->name('contactus');
 
+
+
+    Route::group(['prefix' => 'services'], function () {
+
+
+
+        Route::get('/', function () {
+            return view('web.service');
+        })->name('services');
+
+
+
+
+        Route::get('e-commerce', function () {
+            return view('web.ecommerce');
+        })->name('ecommerce');
+
+        Route::get('software-development', function () {
+            return view('web.software');
+        })->name('software');
+
+        Route::get('digital-marketing', function () {
+            return view('web.digital');
+        })->name('digital');
+
+        Route::get('business-consulting', function () {
+            return view('web.business');
+        })->name('business');
+    });
     // services
-    Route::get('e-commerce', function () {
-        return view('web.ecommerce');
-    })->name('ecommerce');
-
-    Route::get('software-development', function () {
-        return view('web.software');
-    })->name('software');
-
-    Route::get('digital-marketing', function () {
-        return view('web.digital');
-    })->name('digital');
-
-    Route::get('business-consulting', function () {
-        return view('web.business');
-    })->name('business');
 
 
-    // ecommerce Services
-
-    Route::get('amazon', function () {
+    // ecommerce services
+    Route::get('amazon-seller-account-managment', function () {
         return view('web.amazon');
     })->name('amazon');
 
-    Route::get('flipkart', function () {
+    Route::get('flipkart-seller-account-managment', function () {
         return view('web.flipkart');
     })->name('flipkart');
 
-    Route::get('meesho', function () {
+    Route::get('meesho-seller-account-managment', function () {
         return view('web.meesho');
     })->name('meesho');
-
-
 });
