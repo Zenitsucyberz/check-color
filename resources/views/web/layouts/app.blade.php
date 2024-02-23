@@ -42,7 +42,7 @@
         <meta property="og:url" content="https://checkwebdigitals.com/">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Software Development & Digital Marketing Solutions in Ernakulam">
-        <meta name='og:image' content='{{ asset('assets/images/logo/logo_071.png') }}'>
+        <meta name='og:image' content='{{ asset('assets/images/logo/logo_06.png') }}'>
     @endif
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('assets/images/logo/logo_071.png') }}">
