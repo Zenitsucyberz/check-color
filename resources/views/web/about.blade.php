@@ -47,7 +47,7 @@
                         <!-- /.title-one -->
                         <p class="text-lg mt-45 lg-mt-30 mb-35 lg-mb-30">Your success is our mission. As business advisors,
                             we offer expert guidance, unlocking your potential for growth and profitability</p>
-                        <a href="contact.html" class="btn-three icon-link mt-15 md-mb-40">
+                        <a href="{{  route('web.contactus') }}" class="btn-three icon-link mt-15 md-mb-40">
                             <span>Request a Callback</span>
                             <img src="{{ asset('assets/images/lazy.svg') }}"
                                 data-src="{{ asset('assets/images/icon/icon_09.svg') }}" alt=""
@@ -129,7 +129,7 @@
     <!-- /.text-feature-one -->
 
 
-    
+
 
 
     <!--
@@ -250,5 +250,5 @@
         <!-- /.partner-logo-one -->
 
 
-    
+
 @endsection

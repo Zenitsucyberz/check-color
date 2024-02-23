@@ -5,18 +5,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+
 
 Route::name('web.')->group(function () {
+
     Route::get('/', function () {
         return view('web.index');
     })->name('index');
@@ -27,15 +19,12 @@ Route::name('web.')->group(function () {
 
 
 
-
-
     Route::get('contact-us', function () {
         return view('web.contact');
     })->name('contactus');
 
 
     Route::post('contact-us', function (Request $request) {
-
         $input = $request->validate([
             'name' => 'required',
             'email' => 'required|email:rfc,dns',
@@ -46,14 +35,8 @@ Route::name('web.')->group(function () {
             'description.required' => 'Message is required'
         ]);
 
-
         $deliveryMail = env('ADMIN_EMAIL', 'no-reply@cyberzsoftsolutions.com');
         Mail::to($deliveryMail)->send(new ContactMail($input));
-
-
-
-        // dd($request->toArray());
-
 
         return back()->with('mail_send', 'Thank you for contacting us');
     })->name('contactus');
@@ -63,13 +46,9 @@ Route::name('web.')->group(function () {
     Route::group(['prefix' => 'services'], function () {
 
 
-
         Route::get('/', function () {
             return view('web.service');
         })->name('services');
-
-
-
 
         Route::get('e-commerce', function () {
             return view('web.ecommerce');
@@ -86,20 +65,30 @@ Route::name('web.')->group(function () {
         Route::get('business-consulting', function () {
             return view('web.business');
         })->name('business');
+
+
+
+
+
+        // ecommerce related  services
+
+        Route::get('amazon-seller-account-managment', function () {
+            return view('web.amazon');
+        })->name('amazon');
+
+        Route::get('flipkart-seller-account-managment', function () {
+            return view('web.flipkart');
+        })->name('flipkart');
+
+        Route::get('meesho-seller-account-managment', function () {
+            return view('web.meesho');
+        })->name('meesho');
+
+
+
     });
-    // services
 
 
-    // ecommerce services
-    Route::get('amazon-seller-account-managment', function () {
-        return view('web.amazon');
-    })->name('amazon');
 
-    Route::get('flipkart-seller-account-managment', function () {
-        return view('web.flipkart');
-    })->name('flipkart');
 
-    Route::get('meesho-seller-account-managment', function () {
-        return view('web.meesho');
-    })->name('meesho');
 });
