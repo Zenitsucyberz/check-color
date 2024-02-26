@@ -7,6 +7,15 @@
 
 
 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1A4137">
+    <meta name="msapplication-navbutton-color" content="#1A4137">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1A4137">
+
+
+
     @hasSection('meta-content')
         @yield('meta-content')
     @else
@@ -18,13 +27,25 @@
         <meta name="keywords"
             content="Software Development Ernakulam,ERP Development Services,Digital Marketing Solutions,Business Boosting Services,Expert Solutions,Top-notch Software Services,ERP Solutions Ernakulam,Digital Marketing Ernakulam,Business Excellence,Custom Software Solutions,">
         <meta name="robots" content="index, follow">
+
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="language" content="English">
         <meta name="revisit-after" content="3 days">
+
+
         <meta name="author" content="Check Web Digitals">
+
+
+
+        <meta property="og:site_name" content="{{ env('APP_NAME') }}">
+        <meta property="og:url" content="https://checkwebdigitals.com/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Software Development & Digital Marketing Solutions in Ernakulam">
+        <meta name='og:image' content='{{ asset('assets/images/logo/logo_06.png') }}'>
     @endif
     <!-- Favicon -->
-    <link rel="icon" type="image/png"  href="{{ asset('assets/images/logo/logo_071.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/logo/logo_071.png') }}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}" media="all">
     <!-- Main style sheet -->
@@ -37,7 +58,10 @@
 
 
 
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    @if (env('APP_ENV', 'production') == 'production')
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    @endif
 
 
 
