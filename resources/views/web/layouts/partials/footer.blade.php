@@ -8,12 +8,10 @@
             <div class="row align-content-center">
                 <div class="col-lg-8 col-md-9">
                     <div class="title-one mb-20 lg-mb-10">
-                        <h2 class="text-white">Want to Chat? Feel free to Contact our Team.</h2>
+                        <h2 class="text-white">Have a question? Don't hesitate to reach out to our team.</h2>
                     </div>
                     <!-- /.title-one -->
-                    <p class="text-lg m0 text-white opacity-75">If you have anything in mind just contact us with
-                        our
-                        expert.</p>
+                    <p class="text-lg m0 text-white opacity-75">Our experts are here to help. Feel free to get in touch with us anytime.</p>
                 </div>
                 <div class="col-lg-4 col-md-3">
                     <a href="{{ route('web.contactus') }}"
@@ -54,16 +52,20 @@
                         <li><a href="{{ route('web.index') }}">Home</a></li>
 
                         <li><a href="{{ route('web.about') }}">About us</a></li>
-                        <li><a href="{{ route('web.services') }}">Our services</a></li>
+                        <li><a href="{{ route('web.services') }}">Services</a></li>
 
                     </ul>
                 </div>
                 <div class="col-lg-2 col-sm-4 mb-20">
-                    <h5 class="footer-title">Company</h5>
+                    <h5 class="footer-title">Services</h5>
                     <ul class="footer-nav-link style-none">
-                        <li><a href="{{ route('web.about') }}">About us</a></li>
+                        <li><a href="{{ route('web.ecommerce') }}">E-commerce Solutions</a></li>
 
-                        <li><a href="{{ route('web.contactus') }}">Contact</a></li>
+                        <li><a href="{{ route('web.software') }}">Software Development</a></li>
+
+                        <li><a href="{{ route('web.digital') }}">Digital Marketing</a></li>
+
+                        <li><a href="{{ route('web.business') }}">Business Consultation</a></li>
                     </ul>
                 </div>
                 <div class="col-xxl-2 col-lg-3 col-sm-4 mb-20">

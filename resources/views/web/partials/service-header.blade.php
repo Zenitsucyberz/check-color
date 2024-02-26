@@ -7,7 +7,7 @@
                     style="
                     
                     background:none !important;
-                    color: white">
+                    color: #0a3622">
                     {{ $title }}
                 </h1>
             </div>

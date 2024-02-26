@@ -86,6 +86,10 @@ Route::name('web.')->group(function () {
         Route::get('business-consulting', function () {
             return view('web.business');
         })->name('business');
+
+        Route::get('website-development', function () {
+            return view('web.website');
+        })->name('website');
     });
     // services
 

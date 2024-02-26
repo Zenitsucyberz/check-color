@@ -7,7 +7,7 @@
 
             @php
 
-                $words = 'CHECKDIGITALS';
+                $words = 'CHECKWEBDIGITALS';
 
             @endphp
 

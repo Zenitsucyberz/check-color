@@ -32,6 +32,8 @@
     <!-- responsive style sheet -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}" media="all">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
 
 
@@ -96,7 +98,9 @@
         @yield('content')
 
 
-
+        <a href="https://api.whatsapp.com/send?phone=918075561175&text=Hello." class="float" target="_blank" style="position: fixed; width: 60px; height: 60px; bottom: 80px; right: 10px; background-color: #25d366; color: #FFF; border-radius: 50px; text-align: center; font-size: 30px; box-shadow: 2px 2px 3px #999; z-index: 100;">
+            <i class="fa fa-whatsapp my-float" style="margin-top: 16px;"></i>
+        </a>
 
 
         @include('web.layouts.partials.footer')
@@ -105,8 +109,8 @@
 
 
 
-        <button class="scroll-top">
-            <i class="bi bi-arrow-up-short"></i>
+        <button class="scroll-top" style="position: fixed;bottom: 20px;right: 20px;z-index: 1000;">
+            <i class="bi bi-arrow-up-short" ></i>
         </button>
 
 
