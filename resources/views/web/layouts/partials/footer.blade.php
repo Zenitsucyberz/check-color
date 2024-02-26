@@ -26,13 +26,7 @@
                     our
                     expert.</p>
             </div>
-            <div class="col-lg-4 col-md-3">
-                <a href="{{ route('web.contactus') }}"
-                    class="quote-btn color-two tran5s rounded-circle d-flex align-items-center justify-content-center ms-auto">
-                    <img src="{{ asset('assets/images/lazy.svg') }}"
-                        data-src="{{ asset('assets/images/icon/icon_30.svg') }}" alt="" class="lazy-img">
-                </a>
-            </div>
+            
         </div>
     </div>
 </div>
@@ -55,7 +49,7 @@
                         <p class="lh-sm mb-45 lg-mb-30">Cable Nagar-opposite Adlux Convetion Center
                             <br>Karukutty-Ernakulam
                         </p>
-                        <p class="m0"><a href="tel:918075561175">+918075561175</a></p>
+                        {{-- <p class="m0"><a href="tel:918075561175">+918075561175</a></p> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4 mb-20">

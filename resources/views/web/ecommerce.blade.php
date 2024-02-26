@@ -1,7 +1,7 @@
 @extends('web.layouts.app')
 @section('content')
     @include('web.partials.service-header', [
-        'bgImage' => asset('assets/images/media/ecom.jpg'),
+        'bgImage' => asset('assets/images/media/ecom.png'),
         'title' => 'E-Commerce Seller Account Management',
         'titleDesc' => 'Offering solutions & services to address a spectrum of
                                 financial and Digital issues',

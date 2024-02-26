@@ -69,6 +69,18 @@ Route::name('web.')->group(function () {
         Route::get('website-development', function () {
             return view('web.website');
         })->name('website');
+
+        Route::get('amazon', function () {
+            return view('web.amazon');
+        })->name('amazon');
+
+        Route::get('flipkart', function () {
+            return view('web.flipkart');
+        })->name('flipkart');
+
+        Route::get('meesho', function () {
+            return view('web.meesho');
+        })->name('meesho');
     });
 
 

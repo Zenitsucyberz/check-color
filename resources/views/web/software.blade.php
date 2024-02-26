@@ -1,7 +1,7 @@
 @extends('web.layouts.app')
 @section('content')
     @include('web.partials.service-header', [
-        'bgImage' => asset('assets/images/media/soft.jpg'),
+        'bgImage' => asset('assets/images/media/soft.png'),
         'title' => 'Software Development',
         'titleDesc' => 'Offering solutions & services to address a spectrum of
                                 financial and Digital issues',

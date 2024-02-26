@@ -4,7 +4,7 @@
         'bgImage' => asset('assets/images/media/website.png'),
         'title' => 'Website Development',
         'titleDesc' => 'Offering solutions & services to address a spectrum of
-                                            financial and Digital issues',
+                                                            financial and Digital issues',
         'breadCrumb' => 'Website Development',
     ])
 
@@ -13,10 +13,10 @@
 
 
     <!--
-                      =====================================================
-                       Service Details
-                      =====================================================
-                      -->
+                                      =====================================================
+                                       Service Details
+                                      =====================================================
+                                      -->
     <div class="service-details mt-150 lg-mt-80 mb-100 lg-mb-80">
         <div class="container">
             <div class="row">
@@ -46,13 +46,14 @@
                                         <div
                                             class="icon m-auto tran3s rounded-circle d-flex align-items-center justify-content-center">
                                             <img src="{{ asset('assets/images/lazy.svg') }}"
-                                                data-src="{{ asset('assets/images/icon/icon_118.png') }}" alt=""
-                                                class="lazy-img" style="max-width: 43px">
+                                                data-src="{{ asset('assets/images/icon/icon_109.png') }}" alt=""
+                                                class="lazy-img" style="max-width: 103px">
                                         </div>
-                                        <h4 class="fw-bold mt-35 lg-mt-30 mb-15">Data Analytics</h4>
-                                        <p class="m0">Harness the power of data-driven insights to inform your marketing
-                                            decisions. Our analytics tools provide valuable metrics for continuous
-                                            improvement and optimization. </p>
+                                        <h4 class="fw-bold mt-35 lg-mt-30 mb-15">Planning and Analysis</h4>
+                                        <p class="m0">Planning and Analysis" is the initial phase of web development
+                                            where project goals and requirements are defined. During this stage, thorough
+                                            research is conducted to understand the target audience, competitors, and market
+                                            trends. </p>
                                     </div>
                                     <!-- /.card-style-sixteen -->
                                 </div>
@@ -61,13 +62,14 @@
                                         <div
                                             class="icon m-auto tran3s rounded-circle d-flex align-items-center justify-content-center">
                                             <img src="{{ asset('assets/images/lazy.svg') }}"
-                                                data-src="{{ asset('assets/images/icon/icon_117.png') }}" alt=""
-                                                class="lazy-img" style="max-width: 43px">
+                                                data-src="{{ asset('assets/images/icon/icon_119.png') }}" alt=""
+                                                class="lazy-img" style="max-width: 86px">
                                         </div>
-                                        <h4 class="fw-bold mt-35 lg-mt-30 mb-15">Audience Engagement</h4>
-                                        <p class="m0">Activate your audience with compelling content, interactive
-                                            campaigns, and targeted outreach strategies to enhance engagement and build
-                                            lasting connections.</p>
+                                        <h4 class="fw-bold mt-35 lg-mt-30 mb-15">Design and Development</h4>
+                                        <p class="m0">Design and Development" is the phase in web development where the
+                                            visual and functional aspects of the website are created. Designers work on
+                                            creating the user interface (UI) and user experience (UX), focusing on
+                                            aesthetics, layout, and usability. </p>
                                     </div>
                                     <!-- /.card-style-sixteen -->
                                 </div>
@@ -76,12 +78,13 @@
                                         <div
                                             class="icon m-auto tran3s rounded-circle d-flex align-items-center justify-content-center">
                                             <img src="{{ asset('assets/images/lazy.svg') }}"
-                                                data-src="{{ asset('assets/images/icon/icon_116.png') }}" alt=""
+                                                data-src="{{ asset('assets/images/icon/icon_120.png') }}" alt=""
                                                 class="lazy-img" style="max-width: 43px">
                                         </div>
-                                        <h4 class="fw-bold mt-35 lg-mt-30 mb-15">Digital Strategy</h4>
-                                        <p class="m0">Develop a robust digital marketing strategy that aligns with your
-                                            business goals, ensuring a solid foundation for online success.</p>
+                                        <h4 class="fw-bold mt-35 lg-mt-30 mb-15">Deployment and Maintenance</h4>
+                                        <p class="m0">Deployment and Maintenance" is the final phase of web development
+                                            where the website is made live and ongoing maintenance tasks are performed.
+                                        </p>
                                     </div>
                                     <!-- /.card-style-sixteen -->
                                 </div>
@@ -93,8 +96,8 @@
                                     data-src="{{ asset('assets/images/icon/icon_84.svg') }}" alt=""
                                     class="lazy-img icon">
                                 <div class="ps-xl-5">
-                                    <blockquote>Rapid Solutions Combined with Outstanding Performance—A Strong Endorsement
-                                        for Your Digital Marketing Strategy</blockquote>
+                                    <blockquote>Efficient Solutions Paired with Exceptional Performance—A Strong Endorsement
+                                        for Your Web Development Journey</blockquote>
 
                                 </div>
                             </div>

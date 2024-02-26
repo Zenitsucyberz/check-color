@@ -2,7 +2,7 @@
 @section('content')
 
 @include('web.partials.service-header', [
-    'bgImage' => asset('assets/images/media/business.jpg'),
+    'bgImage' => asset('assets/images/media/business.png'),
     'title' => 'Business Consultation',
     'titleDesc' => 'Offering solutions & services to address a spectrum of
                             financial and Digital issues',

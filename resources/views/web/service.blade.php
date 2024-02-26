@@ -6,7 +6,7 @@
                                   ==============================================
                                   -->
     <div class="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 md-pb-70 position-relative"
-        style="background-image: url({{ asset('assets/images/media/service.jpg') }});">
+        style="background-image: url({{ asset('assets/images/media/service.png') }});">
         <div class="container position-relative">
             <div class="row align-items-center">
                 <div class="col-lg-6">

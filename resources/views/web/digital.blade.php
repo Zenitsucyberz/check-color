@@ -2,7 +2,7 @@
 @section('content')
 
 @include('web.partials.service-header', [
-        'bgImage' => asset('assets/images/media/digital.jpg'),
+        'bgImage' => asset('assets/images/media/digital.png'),
         'title' => 'Digital Marketing',
         'titleDesc' => 'Offering solutions & services to address a spectrum of
                                 financial and Digital issues',
