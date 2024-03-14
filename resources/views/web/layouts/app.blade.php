@@ -176,6 +176,8 @@
 
         <!-- Theme js -->
         <script src="{{ asset('assets/js/theme.js') }}"></script>
+
+        
     </div> <!-- /.main-page-wrapper -->
 </body>
 

@@ -94,6 +94,8 @@
                                 <!-- /.title-one -->
                             </div>
                         </div>
+
+                        
                         <div class="col-lg-7">
                             <div class="form-style-one ps-xl-5">
                                 <form action="" id="contact-form" data-toggle="validator" method="POST">
@@ -177,6 +179,8 @@
                                 </form>
                             </div> <!-- /.form-style-one -->
                         </div>
+
+                        
                     </div>
                 </div>
             </div>
